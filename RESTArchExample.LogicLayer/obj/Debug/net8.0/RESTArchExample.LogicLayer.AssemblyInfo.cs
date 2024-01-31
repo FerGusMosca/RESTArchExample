@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RESTArchExample.LogicLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+15c11f31cba55e5a2147086f5ed298f3b361da4a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ad3caccfeb13cc78e5567cc2bcef83a0b6bb061")]
 [assembly: System.Reflection.AssemblyProductAttribute("RESTArchExample.LogicLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RESTArchExample.LogicLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

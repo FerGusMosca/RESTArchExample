@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using RESTArchExample.Common.DTO;
+using RESTArchExample.Github.Common.interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +14,7 @@ namespace RESTArchExample.ServiceLayer.controllers
 {
     [Route("[controller]")]
     [ApiController]
-    public class InventoryManagementController : ControllerBase
+    public class InventoryManagementController : LocalControllerBase
     {
 
         #region Protected Attributes
@@ -39,19 +40,17 @@ namespace RESTArchExample.ServiceLayer.controllers
 
         #region Public Attributes
 
-
-        //[HttpGet]
-        //public IActionResult Get()
-        //{
-        //    // Lógica del método GET
-        //    return Ok("¡Hola desde InventoryManagementController!");
-        //}
-
         [HttpPost("CreateCarModel")]
-        public async Task<IActionResult> CreateCarModel([FromBody] CreateCarModelReqDTO createCarModelDTO)
+        public async Task<IActionResult> CreateCarModel([FromBody] CreateCarModelReqDTO createCarModelDTO, [FromServices] IGitHubService gitHubService)
         {
             try
             {
+
+
+                string accessToken = ExtractBearerToken(HttpContext);
+
+                string userDetails = await gitHubService.GetUserDetailsAsync(accessToken);
+
 
                 GenericResponse result = await _mediator.Send(createCarModelDTO);
 
@@ -75,10 +74,14 @@ namespace RESTArchExample.ServiceLayer.controllers
 
 
         [HttpGet("GetCarModels")]
-        public async Task<IActionResult> GetCarModels([FromQuery] GetCarModelReqDTO requestDTO)
+        public async Task<IActionResult> GetCarModels([FromQuery] GetCarModelReqDTO requestDTO, [FromServices] IGitHubService gitHubService)
         {
             try
             {
+
+                string accessToken = ExtractBearerToken(HttpContext);
+
+                string userDetails = await gitHubService.GetUserDetailsAsync(accessToken);
 
                 // Utiliza Send en lugar de Publish
                 GenericResponse result = await _mediator.Send(requestDTO);

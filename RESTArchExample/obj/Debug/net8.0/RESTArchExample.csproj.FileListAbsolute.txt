@@ -37,3 +37,13 @@ C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\POCs\RESTArch
 C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\POCs\RESTArchExample\RESTArchExample\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\POCs\RESTArchExample\RESTArchExample\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\POCs\RESTArchExample\RESTArchExample\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\POCs\RESTArchExample\RESTArchExample\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\POCs\RESTArchExample\RESTArchExample\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\POCs\RESTArchExample\RESTArchExample\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\POCs\RESTArchExample\RESTArchExample\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\POCs\RESTArchExample\RESTArchExample\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\POCs\RESTArchExample\RESTArchExample\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\POCs\RESTArchExample\RESTArchExample\bin\Debug\net8.0\RESTArchExample.Github.Common.dll
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\POCs\RESTArchExample\RESTArchExample\bin\Debug\net8.0\RESTArchExample.Github.ServiceLayer.dll
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\POCs\RESTArchExample\RESTArchExample\bin\Debug\net8.0\RESTArchExample.Github.Common.pdb
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\POCs\RESTArchExample\RESTArchExample\bin\Debug\net8.0\RESTArchExample.Github.ServiceLayer.pdb

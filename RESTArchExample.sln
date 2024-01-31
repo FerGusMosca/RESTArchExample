@@ -13,7 +13,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RESTArchExample.LogicLayer"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RESTArchExample.ServiceLayer", "RESTArchExample.ServiceLayer\RESTArchExample.ServiceLayer.csproj", "{BB630039-FE4F-4906-8500-F109BB401C92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RESTArchExample.Common", "RESTArchExample.Common\RESTArchExample.Common.csproj", "{83598DCB-FA86-4EEC-BA89-EDA6B689CAA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RESTArchExample.Common", "RESTArchExample.Common\RESTArchExample.Common.csproj", "{83598DCB-FA86-4EEC-BA89-EDA6B689CAA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Vendors", "Vendors", "{09678B65-7EFE-4A13-A73D-AEA28323F77D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RESTArchExample.Github.ServiceLayer", "RESTArchExample.Github.ServiceLayer\RESTArchExample.Github.ServiceLayer.csproj", "{5554C794-B842-4953-85DB-F77400EAFE0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Github", "Github", "{1D164EA4-A8A5-46FC-8733-042A5BAC0714}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RESTArchExample.Github.Common", "RESTArchExample.Github.Common\RESTArchExample.Github.Common.csproj", "{7E99598C-35DB-4557-A00A-E443376B4A2A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,9 +53,22 @@ Global
 		{83598DCB-FA86-4EEC-BA89-EDA6B689CAA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83598DCB-FA86-4EEC-BA89-EDA6B689CAA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83598DCB-FA86-4EEC-BA89-EDA6B689CAA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5554C794-B842-4953-85DB-F77400EAFE0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5554C794-B842-4953-85DB-F77400EAFE0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5554C794-B842-4953-85DB-F77400EAFE0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5554C794-B842-4953-85DB-F77400EAFE0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E99598C-35DB-4557-A00A-E443376B4A2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E99598C-35DB-4557-A00A-E443376B4A2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E99598C-35DB-4557-A00A-E443376B4A2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E99598C-35DB-4557-A00A-E443376B4A2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5554C794-B842-4953-85DB-F77400EAFE0D} = {1D164EA4-A8A5-46FC-8733-042A5BAC0714}
+		{1D164EA4-A8A5-46FC-8733-042A5BAC0714} = {09678B65-7EFE-4A13-A73D-AEA28323F77D}
+		{7E99598C-35DB-4557-A00A-E443376B4A2A} = {1D164EA4-A8A5-46FC-8733-042A5BAC0714}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {71D032B5-5967-4F7A-B65F-607D61C85CCA}

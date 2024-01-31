@@ -9,10 +9,14 @@
   <ItemGroup>
     <PackageReference Include="MediatR" Version="12.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" Version="2.2.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.OAuth" Version="2.2.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.3.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\RESTArchExample.Common\RESTArchExample.Common.csproj" />
+    <ProjectReference Include="..\RESTArchExample.Github.Common\RESTArchExample.Github.Common.csproj" />
+    <ProjectReference Include="..\RESTArchExample.Github.ServiceLayer\RESTArchExample.Github.ServiceLayer.csproj" />
     <ProjectReference Include="..\RESTArchExample.LogicLayer\RESTArchExample.LogicLayer.csproj" />
   </ItemGroup>
 

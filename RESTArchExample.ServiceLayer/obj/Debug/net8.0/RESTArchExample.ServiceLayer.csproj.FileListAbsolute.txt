@@ -20,3 +20,7 @@ C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\POCs\RESTArch
 C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\POCs\RESTArchExample\RESTArchExample.ServiceLayer\bin\Debug\net8.0\RESTArchExample.DataAccessLayer.dll
 C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\POCs\RESTArchExample\RESTArchExample.ServiceLayer\bin\Debug\net8.0\RESTArchExample.BusinessEntities.pdb
 C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\POCs\RESTArchExample\RESTArchExample.ServiceLayer\bin\Debug\net8.0\RESTArchExample.DataAccessLayer.pdb
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\POCs\RESTArchExample\RESTArchExample.ServiceLayer\bin\Debug\net8.0\RESTArchExample.Github.Common.dll
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\POCs\RESTArchExample\RESTArchExample.ServiceLayer\bin\Debug\net8.0\RESTArchExample.Github.ServiceLayer.dll
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\POCs\RESTArchExample\RESTArchExample.ServiceLayer\bin\Debug\net8.0\RESTArchExample.Github.Common.pdb
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\POCs\RESTArchExample\RESTArchExample.ServiceLayer\bin\Debug\net8.0\RESTArchExample.Github.ServiceLayer.pdb
