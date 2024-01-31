@@ -1,0 +1,421 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\zimzum\\Desktop\\Projects\\Seeking Bias\\courses_and_training\\POCs\\RESTArchExample\\RESTArchExample\\RESTArchExample.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\zimzum\\Desktop\\Projects\\Seeking Bias\\courses_and_training\\POCs\\RESTArchExample\\RESTArchExample.BusinessEntities\\RESTArchExample.BusinessEntities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zimzum\\Desktop\\Projects\\Seeking Bias\\courses_and_training\\POCs\\RESTArchExample\\RESTArchExample.BusinessEntities\\RESTArchExample.BusinessEntities.csproj",
+        "projectName": "RESTArchExample.BusinessEntities",
+        "projectPath": "C:\\Users\\zimzum\\Desktop\\Projects\\Seeking Bias\\courses_and_training\\POCs\\RESTArchExample\\RESTArchExample.BusinessEntities\\RESTArchExample.BusinessEntities.csproj",
+        "packagesPath": "C:\\Users\\zimzum\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zimzum\\Desktop\\Projects\\Seeking Bias\\courses_and_training\\POCs\\RESTArchExample\\RESTArchExample.BusinessEntities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zimzum\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\zimzum\\Desktop\\Projects\\Seeking Bias\\courses_and_training\\POCs\\RESTArchExample\\RESTArchExample.Common\\RESTArchExample.Common.csproj": {
+                "projectPath": "C:\\Users\\zimzum\\Desktop\\Projects\\Seeking Bias\\courses_and_training\\POCs\\RESTArchExample\\RESTArchExample.Common\\RESTArchExample.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\zimzum\\Desktop\\Projects\\Seeking Bias\\courses_and_training\\POCs\\RESTArchExample\\RESTArchExample.Common\\RESTArchExample.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zimzum\\Desktop\\Projects\\Seeking Bias\\courses_and_training\\POCs\\RESTArchExample\\RESTArchExample.Common\\RESTArchExample.Common.csproj",
+        "projectName": "RESTArchExample.Common",
+        "projectPath": "C:\\Users\\zimzum\\Desktop\\Projects\\Seeking Bias\\courses_and_training\\POCs\\RESTArchExample\\RESTArchExample.Common\\RESTArchExample.Common.csproj",
+        "packagesPath": "C:\\Users\\zimzum\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zimzum\\Desktop\\Projects\\Seeking Bias\\courses_and_training\\POCs\\RESTArchExample\\RESTArchExample.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zimzum\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Microsoft.AspNetCore.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\zimzum\\Desktop\\Projects\\Seeking Bias\\courses_and_training\\POCs\\RESTArchExample\\RESTArchExample.DataAccessLayer\\RESTArchExample.DataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zimzum\\Desktop\\Projects\\Seeking Bias\\courses_and_training\\POCs\\RESTArchExample\\RESTArchExample.DataAccessLayer\\RESTArchExample.DataAccessLayer.csproj",
+        "projectName": "RESTArchExample.DataAccessLayer",
+        "projectPath": "C:\\Users\\zimzum\\Desktop\\Projects\\Seeking Bias\\courses_and_training\\POCs\\RESTArchExample\\RESTArchExample.DataAccessLayer\\RESTArchExample.DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\zimzum\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zimzum\\Desktop\\Projects\\Seeking Bias\\courses_and_training\\POCs\\RESTArchExample\\RESTArchExample.DataAccessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zimzum\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\zimzum\\Desktop\\Projects\\Seeking Bias\\courses_and_training\\POCs\\RESTArchExample\\RESTArchExample.BusinessEntities\\RESTArchExample.BusinessEntities.csproj": {
+                "projectPath": "C:\\Users\\zimzum\\Desktop\\Projects\\Seeking Bias\\courses_and_training\\POCs\\RESTArchExample\\RESTArchExample.BusinessEntities\\RESTArchExample.BusinessEntities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\zimzum\\Desktop\\Projects\\Seeking Bias\\courses_and_training\\POCs\\RESTArchExample\\RESTArchExample.LogicLayer\\RESTArchExample.LogicLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zimzum\\Desktop\\Projects\\Seeking Bias\\courses_and_training\\POCs\\RESTArchExample\\RESTArchExample.LogicLayer\\RESTArchExample.LogicLayer.csproj",
+        "projectName": "RESTArchExample.LogicLayer",
+        "projectPath": "C:\\Users\\zimzum\\Desktop\\Projects\\Seeking Bias\\courses_and_training\\POCs\\RESTArchExample\\RESTArchExample.LogicLayer\\RESTArchExample.LogicLayer.csproj",
+        "packagesPath": "C:\\Users\\zimzum\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zimzum\\Desktop\\Projects\\Seeking Bias\\courses_and_training\\POCs\\RESTArchExample\\RESTArchExample.LogicLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zimzum\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\zimzum\\Desktop\\Projects\\Seeking Bias\\courses_and_training\\POCs\\RESTArchExample\\RESTArchExample.Common\\RESTArchExample.Common.csproj": {
+                "projectPath": "C:\\Users\\zimzum\\Desktop\\Projects\\Seeking Bias\\courses_and_training\\POCs\\RESTArchExample\\RESTArchExample.Common\\RESTArchExample.Common.csproj"
+              },
+              "C:\\Users\\zimzum\\Desktop\\Projects\\Seeking Bias\\courses_and_training\\POCs\\RESTArchExample\\RESTArchExample.DataAccessLayer\\RESTArchExample.DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\zimzum\\Desktop\\Projects\\Seeking Bias\\courses_and_training\\POCs\\RESTArchExample\\RESTArchExample.DataAccessLayer\\RESTArchExample.DataAccessLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\zimzum\\Desktop\\Projects\\Seeking Bias\\courses_and_training\\POCs\\RESTArchExample\\RESTArchExample.ServiceLayer\\RESTArchExample.ServiceLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zimzum\\Desktop\\Projects\\Seeking Bias\\courses_and_training\\POCs\\RESTArchExample\\RESTArchExample.ServiceLayer\\RESTArchExample.ServiceLayer.csproj",
+        "projectName": "RESTArchExample.ServiceLayer",
+        "projectPath": "C:\\Users\\zimzum\\Desktop\\Projects\\Seeking Bias\\courses_and_training\\POCs\\RESTArchExample\\RESTArchExample.ServiceLayer\\RESTArchExample.ServiceLayer.csproj",
+        "packagesPath": "C:\\Users\\zimzum\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zimzum\\Desktop\\Projects\\Seeking Bias\\courses_and_training\\POCs\\RESTArchExample\\RESTArchExample.ServiceLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zimzum\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\zimzum\\Desktop\\Projects\\Seeking Bias\\courses_and_training\\POCs\\RESTArchExample\\RESTArchExample.Common\\RESTArchExample.Common.csproj": {
+                "projectPath": "C:\\Users\\zimzum\\Desktop\\Projects\\Seeking Bias\\courses_and_training\\POCs\\RESTArchExample\\RESTArchExample.Common\\RESTArchExample.Common.csproj"
+              },
+              "C:\\Users\\zimzum\\Desktop\\Projects\\Seeking Bias\\courses_and_training\\POCs\\RESTArchExample\\RESTArchExample.LogicLayer\\RESTArchExample.LogicLayer.csproj": {
+                "projectPath": "C:\\Users\\zimzum\\Desktop\\Projects\\Seeking Bias\\courses_and_training\\POCs\\RESTArchExample\\RESTArchExample.LogicLayer\\RESTArchExample.LogicLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\zimzum\\Desktop\\Projects\\Seeking Bias\\courses_and_training\\POCs\\RESTArchExample\\RESTArchExample\\RESTArchExample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zimzum\\Desktop\\Projects\\Seeking Bias\\courses_and_training\\POCs\\RESTArchExample\\RESTArchExample\\RESTArchExample.csproj",
+        "projectName": "RESTArchExample",
+        "projectPath": "C:\\Users\\zimzum\\Desktop\\Projects\\Seeking Bias\\courses_and_training\\POCs\\RESTArchExample\\RESTArchExample\\RESTArchExample.csproj",
+        "packagesPath": "C:\\Users\\zimzum\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zimzum\\Desktop\\Projects\\Seeking Bias\\courses_and_training\\POCs\\RESTArchExample\\RESTArchExample\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zimzum\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\zimzum\\Desktop\\Projects\\Seeking Bias\\courses_and_training\\POCs\\RESTArchExample\\RESTArchExample.ServiceLayer\\RESTArchExample.ServiceLayer.csproj": {
+                "projectPath": "C:\\Users\\zimzum\\Desktop\\Projects\\Seeking Bias\\courses_and_training\\POCs\\RESTArchExample\\RESTArchExample.ServiceLayer\\RESTArchExample.ServiceLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\POCs\RESTArchExample\RESTArchExample.Common\bin\Debug\net8.0\RESTArchExample.Common.deps.json
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\POCs\RESTArchExample\RESTArchExample.Common\bin\Debug\net8.0\RESTArchExample.Common.dll
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\POCs\RESTArchExample\RESTArchExample.Common\bin\Debug\net8.0\RESTArchExample.Common.pdb
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\POCs\RESTArchExample\RESTArchExample.Common\obj\Debug\net8.0\RESTArchExample.Common.csproj.AssemblyReference.cache
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\POCs\RESTArchExample\RESTArchExample.Common\obj\Debug\net8.0\RESTArchExample.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\POCs\RESTArchExample\RESTArchExample.Common\obj\Debug\net8.0\RESTArchExample.Common.AssemblyInfoInputs.cache
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\POCs\RESTArchExample\RESTArchExample.Common\obj\Debug\net8.0\RESTArchExample.Common.AssemblyInfo.cs
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\POCs\RESTArchExample\RESTArchExample.Common\obj\Debug\net8.0\RESTArchExample.Common.csproj.CoreCompileInputs.cache
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\POCs\RESTArchExample\RESTArchExample.Common\obj\Debug\net8.0\RESTArchExample.Common.sourcelink.json
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\POCs\RESTArchExample\RESTArchExample.Common\obj\Debug\net8.0\RESTArchExample.Common.dll
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\POCs\RESTArchExample\RESTArchExample.Common\obj\Debug\net8.0\refint\RESTArchExample.Common.dll
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\POCs\RESTArchExample\RESTArchExample.Common\obj\Debug\net8.0\RESTArchExample.Common.pdb
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\POCs\RESTArchExample\RESTArchExample.Common\obj\Debug\net8.0\ref\RESTArchExample.Common.dll

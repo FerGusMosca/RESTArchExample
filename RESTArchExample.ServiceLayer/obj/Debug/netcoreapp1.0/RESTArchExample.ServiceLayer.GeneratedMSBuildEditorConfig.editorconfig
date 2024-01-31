@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = RESTArchExample.ServiceLayer
+build_property.ProjectDir = C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\POCs\RESTArchExample\RESTArchExample.ServiceLayer\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
