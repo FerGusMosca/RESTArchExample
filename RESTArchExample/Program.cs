@@ -21,6 +21,10 @@ namespace RESTArchExample
             
             try
             {
+
+               
+
+
                 IConfiguration configuration = new ConfigurationBuilder().AddJsonFile("appSettings.json",
                        optional: true,
                        reloadOnChange: true).Build();

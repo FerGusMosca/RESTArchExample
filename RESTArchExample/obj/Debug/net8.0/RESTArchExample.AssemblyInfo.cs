@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RESTArchExample")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68d502df57222506986b5f8713f082d2ca349075")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2174b8bbb7c09239bcec6c944e41152bf2eead8d")]
 [assembly: System.Reflection.AssemblyProductAttribute("RESTArchExample")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RESTArchExample")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
