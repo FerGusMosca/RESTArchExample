@@ -13,6 +13,7 @@ using RESTArchExample.Github.ServiceLayer;
 using RESTArchExample.LogicLayer;
 using RESTArchExample.ServiceLayer.controllers;
 using RESTArchExample.ServiceLayer.handlers;
+using RESTArchExample.ServiceLayer.stages;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -53,11 +54,10 @@ namespace RESTArchExample.ServiceLayer.config
 
         public void Configure(IApplicationBuilder app)
         {
-            app.UseRouting();
+            app.UseRouting();//Enables routing
 
-            app.UseAuthentication(); // Enable middleware Auth
+            app.UseMiddleware<GitHubAuthenticationMiddlewareStage>();
             //app.UseAuthorization();  // For Auth
-
 
             app.UseEndpoints(endpoints =>
             {

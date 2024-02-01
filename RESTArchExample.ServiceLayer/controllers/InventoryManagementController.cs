@@ -46,13 +46,6 @@ namespace RESTArchExample.ServiceLayer.controllers
         {
             try
             {
-
-
-                string accessToken = ExtractBearerToken(HttpContext);
-
-                string userDetails = await gitHubService.GetUserDetailsAsync(accessToken);
-
-
                 GenericResponse result = await _mediator.Send(createCarModelDTO);
 
                 if (result != null && result.success)
@@ -79,13 +72,6 @@ namespace RESTArchExample.ServiceLayer.controllers
         {
             try
             {
-
-                string accessToken = ExtractBearerToken(HttpContext);
-
-                string userDetails = await gitHubService.GetUserDetailsAsync(accessToken);
-
-                GithubUserValidator.ValidateUser(userDetails);
-
                 // Utiliza Send en lugar de Publish
                 GenericResponse result = await _mediator.Send(requestDTO);
 
@@ -114,11 +100,6 @@ namespace RESTArchExample.ServiceLayer.controllers
         {
             try
             {
-
-                string accessToken = ExtractBearerToken(HttpContext);
-
-                string userDetails = await gitHubService.GetUserDetailsAsync(accessToken);
-
                 // Utiliza Send en lugar de Publish
                 GenericResponse result = await _mediator.Send(requestDTO);
 
