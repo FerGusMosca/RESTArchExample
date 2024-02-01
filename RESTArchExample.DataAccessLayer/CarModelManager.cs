@@ -27,6 +27,8 @@ namespace RESTArchExample.DataAccessLayer
 
         private static string _SP_PERSIST_CAR_MODEL = "PersistCarModel";
 
+        private static string _SP_DELETE_CAR_MODELS = "DeleteCarModels";
+
         private static string _SP_GET_CAR_MODEL = "GetCarModels";
 
 
@@ -88,8 +90,6 @@ namespace RESTArchExample.DataAccessLayer
             return carModelList;
         }
 
-
-
         public void PersistCarModel(CarModel carModel)
         {
             using (var connection = new SqlConnection(ConnectionString))
@@ -108,6 +108,41 @@ namespace RESTArchExample.DataAccessLayer
                     cmd.ExecuteNonQuery();
                 }
                 connection.Dispose();
+
+
+            }
+        }
+
+
+        public int DeleteCarModels(DeleteCarModelReqDTO delCarModelDTO)
+        {
+            int delRows = 0;
+
+            using (var connection = new SqlConnection(ConnectionString))
+            {
+                using (SqlCommand cmd = connection.CreateCommand())
+                {
+                    connection.Open();
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.CommandText = _SP_DELETE_CAR_MODELS;
+                    cmd.Parameters.Add(new SqlParameter("@Company", delCarModelDTO.company));
+                    cmd.Parameters.Add(new SqlParameter("@ModelName", delCarModelDTO.modelName));
+                    cmd.Parameters.Add(new SqlParameter("@SpecialEdition", delCarModelDTO.specialEdition));
+                    cmd.Parameters.Add(new SqlParameter("@IssueYear", delCarModelDTO.issueYear));
+
+                    SqlParameter outParam = new SqlParameter();
+                    outParam.ParameterName = "@DeletedRows";
+                    outParam.SqlDbType = SqlDbType.Int;
+                    outParam.Direction = ParameterDirection.Output;
+                    cmd.Parameters.Add(outParam);
+
+                    cmd.ExecuteNonQuery();
+
+                    delRows = Convert.ToInt32(outParam.Value);
+                }
+                connection.Dispose();
+
+                return delRows;
 
 
             }

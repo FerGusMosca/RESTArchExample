@@ -10,9 +10,7 @@ using System.Threading.Tasks;
 namespace RESTArchExample.ServiceLayer.handlers
 {
     public class GetCarModelsEventHandler : IRequestHandler<GetCarModelReqDTO, GetCarModelRespDTO>
-
     {
-
         private readonly InventoryManagementLogic _logic;
 
         public GetCarModelsEventHandler(InventoryManagementLogic logic)

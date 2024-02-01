@@ -42,6 +42,7 @@ namespace RESTArchExample.ServiceLayer.config
             //Add One line per handler
             services.AddTransient<IRequestHandler<CreateCarModelReqDTO, CreateCarModelRespDTO>, CarModelCreatedEventHandler>();
             services.AddTransient<IRequestHandler<GetCarModelReqDTO, GetCarModelRespDTO>, GetCarModelsEventHandler>();
+            services.AddTransient<IRequestHandler<DeleteCarModelReqDTO, DeleteCarModelRespDTO>, DeleteCarModelsEventHandler>();
 
 
             services.AddHttpClient<IGitHubService, GitHubServiceClient>();

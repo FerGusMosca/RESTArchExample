@@ -107,6 +107,29 @@ namespace RESTArchExample.LogicLayer
         }
 
 
+        public DeleteCarModelRespDTO DeleteCarmOdels(DeleteCarModelReqDTO deleteCarModelDTO)
+        {
+            try
+            {
+                Logger.Instance.DoLog($"Deleting car models for filters: ModelName:{deleteCarModelDTO.modelName} (edition:{deleteCarModelDTO.specialEdition}) company:{deleteCarModelDTO.company} for Issue Year: {deleteCarModelDTO.issueYear}", MessageType.Information);
+
+                int delRows = CarModelManager.DeleteCarModels(deleteCarModelDTO);
+
+                Logger.Instance.DoLog($"{delRows} car model successfully deleted", MessageType.Information);
+
+                return new DeleteCarModelRespDTO() { success = true, DeletedCount=delRows };
+
+            }
+            catch (Exception ex)
+            {
+                string msg = $"ERROR deleting car models :{ex.Message}";
+                Logger.Instance.DoLog(msg, MessageType.Error);
+                return new DeleteCarModelRespDTO() { success = false, error = msg };
+            }
+
+        }
+
+
 
         #endregion
     }

@@ -703,6 +703,9 @@
         }
       },
       "RESTArchExample.Github.Common/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
         "runtime": {
           "RESTArchExample.Github.Common.dll": {}
         }
